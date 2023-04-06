@@ -10,6 +10,7 @@ module.exports = merge(common, {
     },
     devtool: 'inline-source-map',
     devServer: {
+        port: 8081,
         hot: true,
         contentBase: ['./dist'],
         historyApiFallback: {
